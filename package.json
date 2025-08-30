@@ -1,0 +1,37 @@
+{
+  "name": "hospital-nestjs",
+  "version": "1.0.0",
+  "description": "Hospital REST API built with NestJS, TypeORM and SQLite. Includes Swagger and Postman collection.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "format": "prettier --write 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.20",
+    "@nestjs/core": "^10.4.20",
+    "@nestjs/platform-express": "^10.4.20",
+    "@nestjs/swagger": "^7.4.2",
+    "@nestjs/typeorm": "^11.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.1.14",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.8.2",
+    "sqlite3": "^5.1.6",
+    "swagger-ui-express": "^5.0.1",
+    "typeorm": "^0.3.26"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.0.0",
+    "@nestjs/schematics": "^10.0.0",
+    "@nestjs/testing": "^10.0.0",
+    "@types/node": "^24.3.0",
+    "prettier": "^2.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

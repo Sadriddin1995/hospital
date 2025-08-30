@@ -1,0 +1,4 @@
+node_modules
+dist
+hospital.db
+.env
